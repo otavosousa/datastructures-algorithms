@@ -1,9 +1,11 @@
+// ES6
 function sumEx1(x = 1, y = 2, z = 3){
     return x + y + z
 }
 console.log(sumEx1())
 console.log(sumEx1(4, 2))
 
+// ES5
 function sumEx2(x, y, z) {
     if(x === undefined) x = 1
     if(y === undefined) y = 2
